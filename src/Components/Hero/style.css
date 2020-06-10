@@ -1,0 +1,22 @@
+.postimageContainer{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.postimageContainer img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0 ;
+}
+@media only screen and (max-width : 800px) {
+    .mobileHide {
+    display: none;
+    }
+    }

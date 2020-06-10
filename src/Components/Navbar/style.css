@@ -1,0 +1,35 @@
+.navbar{
+    padding-top: 10px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    padding: 0 10px;
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    color: white;
+}
+.search{
+    display: flex;
+    padding: 10px 20px;
+    
+}
+.searchicon{
+    padding-left: 10px;
+    display: flex;
+}

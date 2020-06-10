@@ -1,0 +1,6 @@
+.leftsideContainer{
+    width: 50%;
+}
+.leftsideContainer hr{
+    border: 1px solid blue;
+}
